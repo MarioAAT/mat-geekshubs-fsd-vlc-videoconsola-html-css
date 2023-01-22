@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+}
+
+/* fondo */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(purple,pink);
+}
+/* 
+#carcasa-tras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    width: 30vw;
+    margin-bottom: 14px;
+    margin-right: 15px;
+    background-color: black;
+    background: linear-gradient(360deg, yellow, orange 250px);
+    background: radial-gradient( orange,yellow);
+    border-radius: 10px 20px 10px 15px;
+    border: inset 5px;
+    border: solid black 1px;
+
+} */
+
+/* Carcasa */
+
+#carcasa{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    width: 30vw;
+    background: linear-gradient(360deg, yellow, orange 250px);
+    /* background: radial-gradient( orange,yellow); */
+    border-radius: 10px 20px 10px 20px;
+    /* border: solid black ; */
+    border-bottom: 3px;
+    box-shadow: -10px -8px 5px ;
+    border-top: inset;
+    border-left: inset;
+    /* border: inset 5px; */
+}
+
+/* pantalla */
+
+#pantalla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44vh;
+    width: 26vw;
+    background-color: black;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+.pant-2{
+    height: 40vh;
+    width: 24vw;
+    /* background-color: grey; */
+    background: linear-gradient(150deg, rgb(26, 26, 26), rgb(128, 126, 126));
+    border-radius: 10px;
+
+}
+
+.pant-2:hover{
+    background-image: url(../assets/cup4.jpg)
+}
+
+/* controles */
+
+#controles{
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+    width: 30vw;
+    /* border: solid; */
+}
+
+/* controles izquierda */
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    /* border: solid 1px; */
+
+}
+
+#scroll-l{
+    height: 15vh;
+    width: 15vh;
+    background: radial-gradient(black 50%,rgb(70, 70, 70),rgb(152, 152, 152)100% );
+    border-radius: 50px;
+    border: outset;
+    position: relative;
+    /* margin-bottom: 10vh; */
+    margin-top: 10px;
+}
+
+#cruz{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+#cruz-v{
+    position: absolute;
+    height: 90px;
+    width: 25px;
+    background-color: black;
+    border-radius: 3px;
+    border-style: outset;
+}
+
+.cruz-h-i{
+    position: absolute;
+    height: 70px;
+    width: 25px;
+    background-color: black;
+    /* margin-bottom: 150px; */
+}
+
+#cruz-h{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 90px;
+    background-color: black;
+    border-radius: 3px;
+    border-style: outset;
+}
+
+/* controles centro */
+
+#center{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    align-items: center; */
+    /* border: solid 1px; */
+    width: 10vw;
+}
+#altavoz{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    
+}
+
+.altl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 10vh;
+    width: 5vw;
+    
+}
+
+.alt-l{
+    position: relative;
+    height: 1vh;
+    width: 4vw;
+    background-color: black;
+    margin-right: 5px;
+}
+
+#alt-l-m{
+    position: relative;
+    height: 1vh;
+    width: 3vw;
+    background-color: black;
+    margin-right: 5px;
+}
+
+.altr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 10vh;
+    width: 5vw;
+    
+}
+
+.alt-r{
+    position: relative;
+    height: 1vh;
+    width: 4vw;
+    background-color: black;
+    margin-left: 5px;
+}
+
+#alt-r-m{
+    position: relative;
+    height: 1vh;
+    width: 3vw;
+    background-color: black;
+    margin-left: 5px;
+}
+
+.cen{
+    /* border: solid; */
+}
+
+.voz-1{
+    position: relative;
+    width: 50px;
+}
+
+hr{
+   background-color: black;
+   height: 5px;
+   border: none; 
+}
+
+#star-words{
+    display: flex;
+    justify-content: space-around;
+    height: 2vh;
+    font-size: small;
+}
+
+#star-butom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.s-b{
+    width: 3vw;
+    height: 6vh;
+    background-color: black;
+    border-radius: 45px;
+    border: outset;
+}
+
+#luna{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    /*  */
+}
+
+.butom-luna{
+    position: relative;
+    height: 4vh;
+    width: 4vw;
+    background-color: black;
+    margin-top: 8px;
+    border-radius: 2px 2px 90px 90px;
+    border: groove;
+}
+
+/* controles derecha */
+
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    /* border: solid 1px; */
+    width: 10vw;
+}
+
+#scroll-d{
+    height: 15vh;
+    width: 15vh;
+    background: radial-gradient(black 50%,rgb(70, 70, 70),rgb(152, 152, 152)100% );
+    border-radius: 50px;
+    border: outset;
+    position: relative;
+    /* margin-bottom: 10vh; */
+    margin-top: 10px;
+}
+
+#buttom-cruz{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 23px;
+    /* border: solid; */
+}
+
+.buttom-v{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 50px;
+    
+}
+
+.buttom-h{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    width: 100px;
+    
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 45px;
+    border: groove;
+    font-style: initial;
+}
+
+.Y{
+    color: rgb(251, 251, 24);
+}
+.A{
+    color: rgb(20, 250, 8);
+}
+.X{
+    color: rgb(69, 120, 250);
+}
+.B{
+    color: rgb(251, 24, 24);
+}
