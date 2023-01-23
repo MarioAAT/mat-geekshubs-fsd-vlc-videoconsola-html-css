@@ -224,6 +224,11 @@ main{
     height: 20vh;
     display: flex;
     justify-content: center;
+    
+}
+
+#luna:active{
+    
 }
 
 .butom-luna{
@@ -234,6 +239,7 @@ main{
     margin-top: 8px;
     border-radius: 2px 2px 90px 90px;
     border: groove;
+    
 }
 
 /* controles derecha */
