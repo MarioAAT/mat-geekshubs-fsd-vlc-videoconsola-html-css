@@ -30,7 +30,7 @@ En este proyecto se busco replicar una Videoconsola, utilizando solo HTML y CSS.
   
   De momento la unica interacción que tenemos es un hover. Al pasar el mouse por la pantalla podemos visualizar la presentación de un videojuego. 
   
-#Tencologias utilizadas.
+# Tencologias utilizadas.
   
   El proyecto fue realizado con:
   - HTML
