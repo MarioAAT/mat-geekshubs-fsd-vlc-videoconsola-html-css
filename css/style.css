@@ -24,14 +24,11 @@ main{
     height: 93vh;
     width: 30vw;
     background: linear-gradient(360deg, yellow, orange 250px);
-    /* background: radial-gradient( orange,yellow); */
     border-radius: 10px 20px 10px 20px;
-    /* border: solid black ; */
     border-bottom: 3px;
     box-shadow: -10px -8px 5px ;
     border-top: inset;
     border-left: inset;
-    /* border: inset 5px; */
 }
 
 /* pantalla */
