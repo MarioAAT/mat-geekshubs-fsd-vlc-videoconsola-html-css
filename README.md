@@ -36,7 +36,11 @@ En este proyecto se busco replicar una Videoconsola, utilizando solo HTML y CSS.
   - HTML
   - CSS
 
- #Acceso.
+# Acceso.
+
+ En el siguiente enlace podremos visualizar los avances de la videconsola, tambien podran tener acceso a travez del repositorio, ademas de tener acceso a al codigo.
+ 
+ https://marioaat.github.io/mat-geekshubs-fsd-vlc-videoconsola-html-css/
   
   
  
